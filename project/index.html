@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand-wrap">
+          <img
+            src="assets/logo.png"
+            alt="TreeForm logo featuring stylized tree design in navbar"
+            class="nav-logo"
+          />
+          <div class="nav-brand">TreeForm</div>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="fade-in">Hi, I'm <span class="highlight">Peter!</span></h1>
+          <p class="subtitle">
+            Computer Science Sophomore Student | Aspiring Developer
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="assets/profile.jpg" alt="Profile Picture" />
+          </div>
+          <div class="about-text">
+            <p>
+              Hey there! I'm a passionate sophomore college student diving deep
+              into the world of programming and technology. I love building
+              things that solve real problems and learning new technologies
+              along the way. My journey in computer science has been an exciting
+              adventure, and I'm eager to see where it takes me!
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new tech trends,
+              working on personal projects that challenge me to grow as a
+              developer, or looking for projects to contribute to on GitHub. I'm
+              always open to connecting with fellow tech enthusiasts, so feel
+              free to reach out!
+            </p>
+            <a href="assets/resume.pdf" class="btn btn-secondary" download
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/project1.jpg" alt="Project 1" />
+            </div>
+            <div class="project-content">
+              <h3>Simple Ordering App</h3>
+              <p>
+                Built a simple ordering app using Kotlin in Android Studio, with
+                a focus on clean UI/UX for browsing and order placement.
+                Implemented core features like cart management and order
+                processing, and version-controlled the project on GitHub.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Kotlin</span>
+                <span class="tech-tag">Android Studio</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/project2.jpg" alt="Project 2" />
+            </div>
+            <div class="project-content">
+              <h3>Priority Loan Approval System</h3>
+              <p>
+                Built a desktop loan approval system using Java Swing in
+                NetBeans, with MySQL managed through PHPMyAdmin. Developed user
+                and admin dashboards with login/logout and full CRUD operations,
+                and implemented a priority-based algorithm to efficiently track
+                and approve loan requests.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Swing</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/project3.jpg" alt="Project 3" />
+            </div>
+            <div class="project-content">
+              <h3>Machine Maintenance Tracker</h3>
+              <p>
+                Built an Android app for tracking machine maintenance using
+                Kotlin and Room for local data storage. Designed intuitive UI/UX
+                for logging and monitoring maintenance schedules, and
+                implemented core app logic for efficient record management.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Kotlin</span>
+                <span class="tech-tag">Android Studio</span>
+                <span class="tech-tag">Room</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link">Live Demo</a>
+                <a href="#" class="project-link">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-intro">
+          Feel free to reach out! I'm always open to discussing new projects,
+          opportunities, or just chatting about tech.
+        </p>
+        <div class="contact-links">
+          <a href="https://yahoo.com" class="contact-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <h3>Email</h3>
+            <p>peter26barraquias@yahoo.com</p>
+          </a>
+          <a
+            href="https://github.com/treeform-iii"
+            target="_blank"
+            class="contact-card"
+          >
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <h3>GitHub</h3>
+            <p>@treeform-iii</p>
+          </a>
+          <a href="https://facebook.com/" target="_blank" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-facebook"></i></div>
+            <h3>Facebook</h3>
+            <p>Peter Barraquias</p>
+          </a>
+          <a href="https://instagram.com/" target="_blank" class="contact-card">
+            <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+            <h3>Instagram</h3>
+            <p>@pj_barraquias</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Peter Jorai M. Barraquias. Treeform-iii.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
